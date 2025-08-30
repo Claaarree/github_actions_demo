@@ -13,5 +13,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - id: s00
-            # running some shell bash command
-            run: echo "Current time in GitHub is $(date)"
+        # running some shell bash command
+          run: echo "Current time in GitHub is $(date)"
