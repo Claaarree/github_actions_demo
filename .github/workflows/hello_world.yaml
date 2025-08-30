@@ -15,7 +15,12 @@ jobs:
         - id: s00
         # running some shell bash command
           run: echo "Current time in GitHub is $(date)"
-        - id: s01
-          run: ls -al
         - id: s02
-          run: cat hello.txt
+          uses: mscoutermarsh/cowsays-action@master
+          with: 
+            text: 'Moo moo cow!'
+            colour: 'green'
+        # - id: s01
+        #   run: ls -al
+        # - id: s02
+        #   run: cat hello.txt
