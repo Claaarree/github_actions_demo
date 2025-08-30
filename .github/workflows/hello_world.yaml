@@ -16,4 +16,4 @@ jobs:
         # running some shell bash command
           run: echo "Current time in GitHub is $(date)"
         - id: s01
-          run: cat README.md
+          run: cat ./README.md
